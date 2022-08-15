@@ -76,6 +76,6 @@ function preventDefault(event) {
 
 finishButton.addEventListener("click", function (e) {
     e.preventDefault()
-    alert("Parabéns, você foi cadastrado com sucesso!")
+    //alert("Parabéns, você foi cadastrado com sucesso!")
     showBasic();
 })
